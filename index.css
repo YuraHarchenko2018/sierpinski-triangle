@@ -1,0 +1,37 @@
+#ctx {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    height: 100%;
+    border: 2px solid #000;
+    margin-top: 10%;
+}
+/* .range_wrapper {
+    width: 135px;
+    height: 25px;
+    padding: 8px;
+    border: 1px solid green;
+    color: white;
+    position: fixed;
+    left: 358px;
+    top: 66px;
+} */
+body {
+    background: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.loader {
+    margin: 0 auto;
+    width: 80%;
+    height: 30px;
+    padding: 4px;
+}
+
+.progress {
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    width: 0%;
+    height: 100%;
+    transition: 0.3s ease-in;
+}
