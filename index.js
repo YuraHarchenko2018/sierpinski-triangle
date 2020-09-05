@@ -14,18 +14,18 @@ class Fractal {
         this.ctx.strokeStyle = 'red'
         this.ctx.fillStyle = 'black'
         this.ctx.lineWidth = 2
-        this.steps = 500000
+        this.steps = 1000000
         this.dotSize = 1
 
         this.dotsArray = [
             [
-                960, 0
+                2000, 0
             ],
             [
-                0, 1080
+                0, 2000
             ],
             [
-                1920, 1080
+                4000, 2000
             ],
         ]
     }
@@ -61,7 +61,7 @@ class Fractal {
             this.ctx.fillRect(this.dotsArray[i][0], this.dotsArray[i][1], this.dotSize, this.dotSize)
         }
 
-        let firstDot = [0,0]
+        let firstDot = [960, 0]
         let prevIndex = 0
         let alreadyStep = 0
 
