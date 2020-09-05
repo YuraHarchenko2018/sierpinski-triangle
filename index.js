@@ -14,18 +14,18 @@ class Fractal {
         this.ctx.strokeStyle = 'red'
         this.ctx.fillStyle = 'black'
         this.ctx.lineWidth = 2
-        this.steps = 400000
+        this.steps = 500000
         this.dotSize = 1
 
         this.dotsArray = [
             [
-                600, 100
+                960, 0
             ],
             [
-                200, 600
+                0, 1080
             ],
             [
-                1000, 600
+                1920, 1080
             ],
         ]
     }
