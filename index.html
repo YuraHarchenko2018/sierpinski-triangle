@@ -8,15 +8,26 @@
     <title>Sierpinski triangle</title>
 </head>
 <body>
-    <!-- <div class="range_wrapper">
-        <input id="set_degr" type="range" min="0" max="90" />
-        <div class="degrees_monitor">45</div>
-    </div> -->
 
+    <div class='controlWrapper'>
+        <div class='control'>
+            <div class="startBtn" id="startBtn">Start</div>
+            <div class="clearBtn" id="clearBtn">Clear</div>
+            <div class="screenShotBtn" id="screenShotBtn">Screenshot</div>
+            <input class="colorInput" id="colorInput" type="color"></input>
+            <input class="dotsCouner" id="dotsCouner" type="number" placeholder="Dots amount"></input>
+            <input class="dotsSize" id="dotsSize" type="number" placeholder="Dots size"></input>
+            <div>
+                <input type="checkbox" value="day" id="toggle" style="display: none;"/>
+                <label for="toggle"></label>
+            </div>
+        </div>
+    </div>
     <canvas id="ctx" width="4000" height="2000"></canvas>
     <div class='loader'>
         <div class="progress"></div>
     </div>
+
     <script src="index.js"></script>
 </body>
 </html>
